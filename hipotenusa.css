@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    width: 100vw;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.center{
+    text-align: left;
+}
+
+.image {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.image2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 1.3em;
+    
+}
+
+#form{
+    font-size: 1.3em;
+    margin: 10px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.517);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 200px;
+}
+
+#form:hover {
+
+}
+
+#foto {
+    margin: 20px;
+}
+
+#co,#ca {
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+#calc {
+    margin: 5px;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+
+
+
+#calc:hover {
+    background-color: rgba(0, 0, 255, 0.439);
+    color: white;
+}
+
+#res {
+    margin: 10px;
+    padding: 10px;
+}
+
+#obs {
+    margin: 20px ;
+    padding: 10px;
+}
+
+#equação {
+    margin: 10px;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 0, 0.169);
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 50px;
+
+}
+
+aside {
+    margin: 10px;
+    padding: 10px;
+}
+
+#tam{
+    margin: 10px;
+    padding-right: 20px;
+}
+
+

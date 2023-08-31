@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipotenusa</title>
+    <link rel="stylesheet" href="hipotenusa.css">
+</head>
+<body>
+    <header>
+        <p class="center">&copy; Jonhy Technology</p>
+        <a href="https://www.instagram.com/jonhyalberto_35/"><img  class="image" src="logo-instagram.jpg" alt="uma logo do instagram"></a>
+        <a href="https://github.com/jonhysantos"><img class="image2" src="logo-github.jpg" alt="logo do GitHub"></a>
+        <a href="https://pt-br.facebook.com/people/Guimar%C3%A3es-Modinhas/pfbid029doMM2tvQ7aRbZXqQ3ptrGt8pCvMn4Ffz5A5cDJGczzXg2PBniEKG8VW7RyHmwx2l/" target="_blank" rel="external"><img class="image2" src="logo-gumaraes.jpg" alt="logo da loja guimaães modas (patrocínio)"></a>
+    </header>
+    <h1>Calculadno o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo e mostrando o comprimento da hipotenusa</h1>
+    <div id="form">
+        <label for="co">Cateto oposto </label><input type="number" name="co" id="co"> <br>
+        <label for="ca">Cateto adjacente</label><input type="number" name="ca" id="ca">
+        <input type="button" value="Calcular" id="calc" onclick="calcular()">
+        <p id="res" >
+        </p>
+
+    </div>
+    <div id="foto">
+        <img src="triângulo-retângulo.webp" alt="foto de um triângulo retangulo">
+    </div>
+    <div id="obs">
+        <p>
+            Obs: Aqui abaixo você encontra a equação para fazer manualmente.
+        </p>
+        <p id="equação">hi <sup>2</sup> = (co <sup>2</sup> + ca <sup>2</sup> ) <sup>(1/2)</sup></p>
+    </div>
+    <aside>
+        <h2>Veja também</h2>
+        <div id="tam">
+            <a href="https://jonhysantos.github.io/Projeto-beba-agua/" target="_blank" rel="external"><img src="beba-agua.png" alt="foto de uma jarra de agua despejando no copo"></a>
+        </div>
+    </aside>
+    <script src="hipotenusa.js"></script>
+</body>
+</html>
