@@ -12,7 +12,7 @@ function calcular() {
         window.alert('Por favor verifique os dados e tente novamente')   
     }else {form.style.height = '250px'
         co.style.border = '2px solid black'
-        ca.style.border = '2px solid black'
+        ca.style.border = '2px solid black.'
         res.innerHTML = `A hipotenusa vai medir ${hi.toFixed(2).replace('.',',')}`
     }
     
